@@ -1,0 +1,12 @@
+{
+  "name": "poc-yarn-monorepo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Bryan Condor",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "repo1",
+    "repo2"
+  ]
+}
