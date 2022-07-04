@@ -12,12 +12,6 @@ yarn
 yarn install
 ```
 
-### Install a remote package
-
-```bash
-yarn add your-package
-```
-
 ### Install a local package
 
 it's important leave the `@` character to final
@@ -26,14 +20,26 @@ it's important leave the `@` character to final
 yarn add your-local-package@
 ```
 
+### Install a remote package
+
+```bash
+yarn add a-remote-package
+```
+
+## Workspace
+
 ### Run commands from an specific Workspace (application/repo)
 
 ```bash
-yarn workspace your-local-package <command>
+# option 1
+cd your-workspace-application
+yarn <command>
+
+# option 2
+yarn workspace your-workspace-application <command>
 ```
 
-### Run test from an specific Workspace (application/repo)
-
+Example:
 ```bash
 yarn workspace @bcd-monorepo/app3 test
 ```
