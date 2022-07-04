@@ -1,5 +1,5 @@
 {
-  "name": "@bcd-monorepo/repo1",
+  "name": "@bcd-monorepo/app1",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,6 +10,6 @@
   "author": "Bryan Condor",
   "license": "MIT",
   "dependencies": {
-    "@bcd-monorepo/repo2": "1.0.0"
+    "@bcd-monorepo/app2": "1.0.0"
   }
 }

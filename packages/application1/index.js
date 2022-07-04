@@ -1,4 +1,4 @@
-const { sum, substract } = require('@bcd-monorepo/repo2');
+const { sum, substract } = require('../application2');
 
 const result = sum(1, 2);
 const result2 = substract(5, 1);

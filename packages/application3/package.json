@@ -1,0 +1,18 @@
+{
+  "name": "@bcd-monorepo/app3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Bryan Condor",
+  "license": "MIT",
+  "dependencies": {
+    "@bcd-monorepo/app2": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^28.1.4",
+    "jest": "^28.1.2"
+  }
+}
